@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
     public void login(){
         Toast.makeText(getApplicationContext(), "You logged in successfully", Toast.LENGTH_LONG).show();
     }
+
+    public void loginBranch(){
+        Toast.makeText(getApplicationContext(), "Branch code", Toast.LENGTH_LONG).show();
+    }
 }
