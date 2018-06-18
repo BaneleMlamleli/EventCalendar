@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loginBranch(){
+        //Display a toast message
         Toast.makeText(getApplicationContext(), "Branch code", Toast.LENGTH_LONG).show();
     }
 }
