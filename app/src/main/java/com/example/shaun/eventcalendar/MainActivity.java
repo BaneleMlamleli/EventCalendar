@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         //Toast to display current date
         Toast.makeText(getApplicationContext(), cal.getTime()+"", Toast.LENGTH_LONG).show();
     }
+
+    public void loginBranch(){
+        Toast.makeText(getApplicationContext(), "Branch code", Toast.LENGTH_LONG).show();
+    }
 }
