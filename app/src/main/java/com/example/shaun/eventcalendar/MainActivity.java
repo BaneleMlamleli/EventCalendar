@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         Calendar cal = new GregorianCalendar();
         //Toast to display current date
         Toast.makeText(getApplicationContext(), cal.getTime()+"", Toast.LENGTH_LONG).show();
+        login();
+    }
+
+    public void login(){
+        Toast.makeText(getApplicationContext(), "You logged in successfully", Toast.LENGTH_LONG).show();
     }
 
     public void loginBranch(){
