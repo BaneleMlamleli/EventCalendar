@@ -8,10 +8,9 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
+ * This is my branch now
  * Develop branch!!
- * This is the develop
  * This is now a my branch from the develop branch
- * Add this useless comment
  */
 public class MainActivity extends AppCompatActivity {
 
