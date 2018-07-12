@@ -7,6 +7,11 @@ import android.widget.Toast;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+/**
+ * This is the develop
+ * This is now a my branch from the develop branch
+ * Add this useless comment
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -21,10 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void login(){
         Toast.makeText(getApplicationContext(), "You logged in successfully", Toast.LENGTH_LONG).show();
+        loginBranch();
     }
 
     public void loginBranch(){
         //Display a toast message
-        Toast.makeText(getApplicationContext(), "Branch code", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "We are now in the BaneleBranch", Toast.LENGTH_LONG).show();
     }
 }
