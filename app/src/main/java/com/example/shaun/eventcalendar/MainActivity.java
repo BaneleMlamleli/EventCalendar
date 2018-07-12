@@ -29,6 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void loginBranch(){
         //Display a toast message
-        Toast.makeText(getApplicationContext(), "We are now in the BaneleBranch", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "We are now in the master branch", Toast.LENGTH_LONG).show();
     }
 }
